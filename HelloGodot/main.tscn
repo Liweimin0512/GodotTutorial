@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvmaydaw2skkv"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_qcmd5"]
+[ext_resource type="Script" path="res://Node3D.gd" id="2_3ryri"]
+
+[node name="main" type="Node3D"]
+script = ExtResource("1_qcmd5")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.895253, 0.445557, 0, -0.445557, 0.895253, 0, 2.315, 7.84923)
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("2_3ryri")
