@@ -3,6 +3,7 @@ class_name Main
 
 var s_cube: PackedScene = preload("res://cube.tscn")
 
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 #	print('Hello Godot!')

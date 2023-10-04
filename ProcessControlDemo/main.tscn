@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbiwpl04uwkd3"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_e2y1n"]
+[ext_resource type="Script" path="res://CustomTimer.gd" id="2_hira2"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_e2y1n")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="CustomTimer" type="Node" parent="."]
+script = ExtResource("2_hira2")
+
+[node name="btn_pause" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 37.0
+offset_right = 46.0
+offset_bottom = 50.0
+text = "pause
+"
+
+[node name="btn_resum" type="Button" parent="."]
+offset_left = 15.0
+offset_top = 72.0
+offset_right = 73.0
+offset_bottom = 103.0
+text = "resum
+"
+
+[node name="btn_reset" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 109.0
+offset_right = 64.0
+offset_bottom = 140.0
+text = "reset"
+
+[connection signal="pressed" from="btn_pause" to="CustomTimer" method="_on_btn_pause_pressed"]
+[connection signal="pressed" from="btn_resum" to="CustomTimer" method="_on_btn_resum_pressed"]
+[connection signal="pressed" from="btn_reset" to="CustomTimer" method="_on_btn_reset_pressed"]
