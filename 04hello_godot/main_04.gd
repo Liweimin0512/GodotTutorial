@@ -1,7 +1,7 @@
 extends Node3D
 class_name Main
 
-var s_cube: PackedScene = preload("res://cube.tscn")
+var s_cube: PackedScene = preload("res://04hello_godot/cube.tscn")
 
 
 # Called when the node enters the scene tree for the first time.

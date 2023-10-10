@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://k64iwwwmnbtn"]
+
+[ext_resource type="Script" path="res://05variable_demo/main_05.gd" id="1_5iss5"]
+
+[node name="main_05" type="Node2D"]
+script = ExtResource("1_5iss5")

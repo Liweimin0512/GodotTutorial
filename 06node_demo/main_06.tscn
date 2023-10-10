@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://letomov645kp"]
+
+[ext_resource type="Script" path="res://06node_demo/main_06.gd" id="1_f620o"]
+
+[node name="main_06" type="Node2D"]
+script = ExtResource("1_f620o")
