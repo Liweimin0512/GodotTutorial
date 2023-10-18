@@ -1,4 +1,5 @@
 extends CharacterBody2D
+class_name Player
 
 @export var player_name : String = "老李"
 @onready var sprite_2d: Sprite2D = $Sprite2D

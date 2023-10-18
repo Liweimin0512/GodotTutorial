@@ -1,4 +1,5 @@
 extends Node2D
+class_name Main
 
 """
 这是老李godot基础知识系列课程演示用项目

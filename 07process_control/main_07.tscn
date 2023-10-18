@@ -1,17 +1,17 @@
 [gd_scene load_steps=3 format=3 uid="uid://bbiwpl04uwkd3"]
 
-[ext_resource type="Script" path="res://07process_control/main_07.gd" id="1_o3cvl"]
-[ext_resource type="Script" path="res://07process_control/CustomTimer.gd" id="2_hira2"]
+[ext_resource type="Script" path="res://07process_control/main_07.gd" id="1_srg43"]
+[ext_resource type="Script" path="res://07process_control/CustomTimer.gd" id="2_jm6yr"]
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_o3cvl")
+script = ExtResource("1_srg43")
 
 [node name="Label" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
 
 [node name="CustomTimer" type="Node" parent="."]
-script = ExtResource("2_hira2")
+script = ExtResource("2_jm6yr")
 
 [node name="btn_pause" type="Button" parent="."]
 offset_left = 16.0

@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2in8c1xd4ce6"]
+
+[ext_resource type="Script" path="res://10class_demo/main_10.gd" id="1_df446"]
+[ext_resource type="Script" path="res://10class_demo/character.gd" id="2_rfjah"]
+[ext_resource type="Script" path="res://10class_demo/enemy.gd" id="3_hrbph"]
+[ext_resource type="Script" path="res://10class_demo/friend.gd" id="4_xsdkk"]
+
+[node name="main_10" type="Node2D"]
+script = ExtResource("1_df446")
+
+[node name="character" type="CharacterBody2D" parent="."]
+script = ExtResource("2_rfjah")
+cha_name = "cha"
+
+[node name="enemy" type="CharacterBody2D" parent="."]
+script = ExtResource("3_hrbph")
+cha_name = "slime"
+
+[node name="friend" type="CharacterBody2D" parent="."]
+script = ExtResource("4_xsdkk")
+
+[node name="Area2D" type="Area2D" parent="."]

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://8xt80nhbskvr"]
+
+[ext_resource type="Script" path="res://09funciton_demo/main_09.gd" id="1_pv8v8"]
+[ext_resource type="PackedScene" uid="uid://dys25t1j74fai" path="res://09funciton_demo/game_from.tscn" id="2_k51pn"]
+
+[node name="main_09" type="Node2D"]
+script = ExtResource("1_pv8v8")
+
+[node name="GameFrom" parent="." instance=ExtResource("2_k51pn")]
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[connection signal="ready" from="." to="." method="_on_ready"]

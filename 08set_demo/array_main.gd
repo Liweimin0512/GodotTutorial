@@ -8,11 +8,11 @@ extends Node2D
 
 1. 数组 [a,b,c,d,e]
 """
-var test_array:Array = [] # 声明了一个空的数组
+var test_array:Array[Player] = [] # 声明了一个空的数组
 var test_2_array:Array = [1,2,3,"hello?"] 
 var int_array: PackedInt32Array = [1, 2, 3, "hello!"]
 var vector_array:PackedVector2Array = [Vector2.ZERO, "helloVector!"]
-var sort_array: Array = [
+var sort_array: Array[Array] = [
 	["老李",35],
 	["小李",15],
 	["大李",25],
